@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{
+    padding:18px 20px;
+    text-align:center;
+}
+
+.logo{
+    float:left;
+}
+.logo a{}
+.logo a img{
+    display: block;
+}
+
+.gnb{
+    display: inline-block;
+    font-size:18px;
+}
+.gnb li{
+    float:left;
+    width:100px;
+    padding:0 20px;
+}
+.gnb li a{
+    display: block;
+}
+
+.lang{
+    position: absolute;
+    right:100px;
+    top:25px;
+    font-size:12px;
+    
+}
+.lang a:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#DDDDDD;
+    margin:0 10px;
+}
+.lang a:last-child:after{
+    display:none;
+}
+.lang a{}
+
+.search{
+    position: absolute;
+    right:0;
+    top:0;
+}
+.search a{
+    text-align:center;
+    line-height:70px;
+    display: block;
+    width:60px;
+    height:68px;
+    background:#043285;
+}
+.search a img{}
+
+
+/*푸터*/
+
+#footer{
+    background:#474B50;
+    font-size:14px;
+    font-weight:200;
+    padding-bottom:50px;
+    position:relative;
+}
+
+.top_btn{
+    background:url(../images/common/top_btn.png) no-repeat center center;
+    width:60px;
+    height:60px;
+    text-indent: -9999px;
+    position:absolute;
+    right:10%;
+    top:-30px;
+}
+.top_btn a{
+    display: block;
+    height:100%;
+}
+
+.f_menu{
+    border-bottom:1px solid #6C6F73;
+    padding:20px 0;
+    position:relative;
+}
+.f_menu li{
+    float:left;
+}
+.f_menu li:after{
+    content:"";
+    display: inline-block;
+    width:1px;
+    height:12px;
+    background:#bbb;
+    margin:0 15px;
+}
+.f_menu li:nth-child(4):after{
+    display:none;
+}
+.f_menu li:nth-child(5):after{
+    display:none;
+}
+.f_menu li a{
+    color:#eee;
+}
+
+.f_menu02{
+    padding:20px 0;
+}
+.f_menu02 span{
+    margin-right:20px;
+}
+.f_menu02 span:nth-child(3) a{
+    color:#1CAEC1;
+}
+.f_menu02 span a{
+    color:#A9A9A9;
+}
+.copy{
+    color:#C3C3C3;
+    float: right;
+    font-weight:100;
+}
+
+.f_menu03{
+    color:#A9A9A9;
+}
+.f_menu03 span{}
+.f_menu03 span:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:12px;
+    background:#bbb;
+    margin:0 15px;
+}
+.f_menu03 span:nth-child(3):after{
+    display:none;
+}
+.f_menu03 p{
+    margin-top: 5px;
+}
+
+.f_sns{
+    position: absolute;
+    top:20px;
+    right:0;
+}
+.f_sns span{
+    margin:0 5px;
+}
+.f_sns span a {}
+.f_sns span a img{
+    vertical-align: middle;
+}
+
